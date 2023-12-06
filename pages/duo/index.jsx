@@ -66,7 +66,7 @@ const averages = examsWithScores.map(exam => ({
       datasets: [
         {
           data: [2, 8],
-          backgroundColor: ['#00000000', '#d6e6f8'],
+          backgroundColor: ['#00000000', '#3F8BB7'],
           borderColor: ['transparent', 'rgba(0, 0, 0, 1)'],
           borderWidth: 1,
           borderAlign:'inner',
@@ -96,7 +96,7 @@ const averages = examsWithScores.map(exam => ({
       datasets: [
         {
           data: [10, 90],
-          backgroundColor: ['#00000000', '#ffcdd2'],
+          backgroundColor: ['#00000000', '#F66178'],
           borderColor: ['transparent', 'rgba(0, 0, 0, 1)'],
           borderWidth: 1,
           borderAlign:'inner',
@@ -125,7 +125,7 @@ const averages = examsWithScores.map(exam => ({
       datasets: [
         {
           data: [10, 90],
-          backgroundColor: ['#00000000', '#e5ffdb'],
+          backgroundColor: ['#00000000', '#EAB25F'],
           borderColor: ['transparent', 'rgba(0, 0, 0, 1)'],
           borderWidth: 1,
           borderAlign:'inner',
@@ -213,7 +213,7 @@ const averages = examsWithScores.map(exam => ({
         {/* 班級&日期區間 */}
         <div className="flex p-10">
           <div><span>班級：
-            <select className="class-selection bg-light p-2 rounded-xl">
+            <select className="class-selection bg-light py-2 px-4 rounded-xl">
               <option>101班</option>
             </select>
             </span></div>
